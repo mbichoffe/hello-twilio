@@ -5,15 +5,4 @@ $(document).ready(function($){
         $(".result").html(data.message);
       });
     });
-
-    $("#sendReminder").on("click", function(e){
-      e.preventDefault();
-      $.post( "/v1/send-reminder", function(data) {
-        console.log(data);
-        console.log("In the post!");
-        $(".result").html(data.message);
-      }).fail(function(e){
-        $(".result").html("Could not send reminders");
-      });
-    });
 });

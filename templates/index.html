@@ -14,13 +14,12 @@
 			{% endif %}
 			<hr>
 			{% if start_time and end_time %}
-				<h3>{{ moment(start_time, true).calendar() }} to {{ moment(end_time, true).format('h:mm a') }}</h3>
+				<h3>{{ moment(start_time, true).calendar() }} {{ moment(start_time, true).format('h:mm a') }} to {{ moment(end_time, true).format('h:mm a') }}</h3>
 			{% endif %}
 			{% if description %}
 				<p>{{description}}</p>
 			{% endif %}
 			<a class="btn btn-primary" id="getAttendees">Get Attendees</a>
-			<a class="btn btn-primary" id="sendReminder">Send Reminder</a>
 		</div>
 	</div>
 	<div class="col-md-8">
