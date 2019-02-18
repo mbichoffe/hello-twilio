@@ -1,0 +1,69 @@
+@import url('https://fonts.googleapis.com/css?family=Libre+Baskerville|Montserrat:300,400,600');
+
+/* Theme Variables */
+
+$serif-font: 'Libre Baskerville', serif;
+$sans-serif-font: 'Montserrat', sans-serif;
+
+// Fonts
+$primary-font-family: $serif-font;
+$headers-font-family: $sans-serif-font;
+$logo-font-family: $sans-serif-font;
+$btn-font-family: $sans-serif-font;
+
+// Colors
+$theme-color-1: #0d122b; // twilio blue
+$theme-color-2: #f22f46; // twilio red
+$theme-color-3: #f5f5f5; // twilio grey
+$theme-color-4: #ffffff; // white
+
+// Header
+$header-height: 65px;
+$logo-height: $header-height;
+
+
+
+/* Theme Styles */
+body {
+	font-family: $primary-font-family;
+	h1,h2,h3,h4,h5,h6 {
+		font-family: $headers-font-family;
+		font-weight: 600;
+	}
+	.btn {
+		font-family: $btn-font-family;
+		font-weight: 400;
+	}
+}
+
+.header {
+	background: $theme-color-1;
+	color: $theme-color-4;
+	max-height: $header-height;
+	margin-bottom: 50px;
+	.brand {
+		img {
+			width: auto;
+			height: $logo-height;
+		}
+		span{
+			font-family: $logo-font-family;
+			font-weight: 600;
+			text-transform: uppercase;
+			letter-spacing: .1em;
+		}
+	}
+}
+
+#feed-bg {
+	min-height: 500px;
+}
+
+.card {
+    padding: 20px;
+    border: 1px solid;
+    margin: 10px;
+}
+.no-border {
+	border: none;
+}

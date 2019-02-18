@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+
+{% block title %} Hello Twilio Feed {% endblock %}
+
+
+{% block content %}
+
+<div class="row">
+	<div class="col-md-12">
+		<div id="feed-bg" class="card no-border text-center">
+			<div class="result"></div>
+			<div class="feed"></div>
+		</div>
+	</div>
+</div>
+
+{% endblock %}
+
+
+{% block scripts %}
+  <script src="https://js.pusher.com/4.3/pusher.min.js"></script>
+  <script src="{{ url_for('static', filename='js/feed.js') }}"></script>
+{% endblock %}

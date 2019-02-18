@@ -1,0 +1,40 @@
+<!doctype html>
+<html>
+<head>
+	<title>{% block title %} TITLE GOES HERE {% endblock %}</title>
+
+	<!--   imports bootstrap -->
+	<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.css" rel="stylesheet">
+	<!--   imports local stylesheet -->
+	<link href="{{ url_for('static', filename='css/main.css') }}"
+	      rel="stylesheet" type="text/css">
+	<!--   imports Open Sans google font -->
+	<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
+	{{ moment.include_jquery() }}
+	{{ moment.include_moment() }}
+</head>
+
+<body>
+
+	<header class="header" role="banner">
+		<div class="container-fluid">
+			<div class="brand">
+				<img src="{{ url_for('static', filename='img/twilio-logo.png') }}" />
+				<span>Hello Twilio</span>
+			</div>
+		</div>
+	</header>
+
+	<!-- Show flashed messages -->
+	<section>
+		<div class="container-fluid">
+			{% block content %} Content {% endblock %}
+		</div>
+	</section>
+
+	<!-- imports bootstrap -->
+	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.js"></script>
+
+	{% block scripts %} {% endblock %}
+</body>
+</html>

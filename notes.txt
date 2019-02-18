@@ -1,0 +1,10 @@
+
+
+https://prod-api.splashthat.com/groupcontact/198130549
+
+{"meta":{"code":200},"data":{"id":198130549,"contact":{"id":60308593,"last_name":"Bichoffe","first_name":"Marina","primary_email":"mbichoffe@twilio.com","title":null,"notes":null,"organization_name":null,"avatar_url":null,"phone":"4157209057","facebook_url":null,"linkedin_url":null,"instagram_url":null,"createdate":"2018-10-29T19:54:20-0400","unsubscribed":false,"vip":false,"salesforce_id":"Lead:00Q1W00001Mz9PgUAJ","bounced":false,"invalid_email":false},"event_rsvp":null,"event_lists":null,"status":"added","created":"2018-10-29T16:54:20-0700","modified":"2018-10-31T22:57:43-0700","deleted":false,"answers":[{"question_id":695097,"answer":"4157209057"},{"question_id":863821,"answer":"No"},{"question_id":863823,"answer":"Engineering"},{"question_id":864380,"answer":"4157209057"}]},"success":true}
+
+if user is already checked in:
+
+{"meta":{"code":409,"message":"Conflict","errors":null},"data":[]}
+

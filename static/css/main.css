@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Libre+Baskerville|Montserrat:300,400,600");
+/* Theme Variables */
+/* Theme Styles */
+body {
+  font-family: "Libre Baskerville", serif; }
+  body h1, body h2, body h3, body h4, body h5, body h6 {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600; }
+  body .btn {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 400; }
+
+.header {
+  background: #0d122b;
+  color: #ffffff;
+  max-height: 65px;
+  margin-bottom: 50px; }
+  .header .brand img {
+    width: auto;
+    height: 65px; }
+  .header .brand span {
+    font-family: "Montserrat", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+    letter-spacing: .1em; }
+
+#feed-bg {
+  min-height: 500px; }
+
+.card {
+  padding: 20px;
+  border: 1px solid;
+  margin: 10px; }
+
+.no-border {
+  border: none; }
+
+/*# sourceMappingURL=main.css.map */

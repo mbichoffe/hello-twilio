@@ -1,0 +1,6 @@
+id,first_name,last_name,primary_email,title,notes,vip,organization_name,avatar_url,phone_number
+1,Lyra,Hall,lyhall@twilio.com,Captain,"What a beeeyotch",false,"Serving the Fax",https://i.pinimg.com/236x/82/86/9b/82869b7a174805303edca074b1ae3682.jpg,13106610202
+2,Marina,Bichoffe,mbichoffe@twilio.com,General,"Smarty pants",false,"Land of Java-Buggy",https://img00.deviantart.net/60da/i/2007/111/6/f/hello_momo_by_booter_freak.png,14157209057
+3,Liz,Acosta,eacosta@twilio.com,Admiral,"Badass",false,"Allllll the channels",https://66.media.tumblr.com/670965e363306566f58361dd5e6eabfc/tumblr_ojueb3Ok381ue0d13o1_500.png,18059900753
+4,Lupita,Davila,ldavila@twilio.com,Major,"Super awesome",false,"Events events events are funnnnn",http://images6.fanpop.com/image/photos/38300000/Katara-dfhthjffg-avatar-the-last-airbender-38398990-250-250.png,17148331120
+5,Kyle,Woumn,kwoumn@twilio.com,SgtCaptain,"Go with the flooooooowwww",false,"What up, Whatsapp!",https://66.media.tumblr.com/05715aaf7452e669f931b8b0d0fbadb7/tumblr_p985h1v3vy1w0qw9ho1_500.png,14045458710

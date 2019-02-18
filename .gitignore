@@ -1,0 +1,17 @@
+venv/
+.DS_Store
+.env
+.flaskenv
+*.pyc
+*.pyo
+env/
+env*
+dist/
+build/
+*.egg
+*.egg-info/
+.cache/
+.idea/
+hellotwilio.sql
+*css.map
+.sass-cache
